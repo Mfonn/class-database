@@ -3,6 +3,7 @@ body {
 }
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#CEBEBE;
     font-size: 300px;
     margin-top: 390px;
     margin-left: 480px;
@@ -18,13 +19,13 @@ h1 {
 }
 @keyframes header {
     50% {font-size: 80px;}
-     0%   {color:#CEBEBE;}
+    0%   {color:#CEBEBE;}
     25%  {color: #D5B9B2;}
     50%  {color:#ECE2D0;}
     75%  {color:#D5B9B2;}
     100% {color:#CEBEBE;}
   }
-
+}
 
 /* Black buttons with extra padding and without rounded borders */
 .btn {
