@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(128, 6, 6);
+}
+h1 {
+    font-size: 300px;
+    margin-top: 390px;
+    margin-left: 480px;
+    animation: header 5s;
+}
+
+.text-center {
+    margin-top: 90px;
+    margin-left: 550px;
+    font-size: 400px;
+}
+@keyframes header {
+    50% {font-size: 100px;}
+    0%   {color:#6D2E46;}
+    25%  {color: #44BBA4;}
+    50%  {color:#523249;}
+    75%  {color:#C14953;}
+    100% {color:#6D2E46;}
+  }
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  
+  /* On hover, the color of .btn will transition to white with black text */
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
