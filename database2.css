@@ -1,3 +1,105 @@
 body {
-    background-color: #bc8f8f;
+    background-color: #E7EFED;
 }
+.navbar {
+    margin-bottom: 0;
+    background-color: #F6F7EB;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* row one shade thingie*/
+  .shade:hover .image {
+    opacity: 0.3;
+  }
+  
+  .shade:hover .middle {
+    opacity: 1;
+  }
+  .shadey:hover .image {
+    opacity: 0.3;
+  }
+  
+  .shadey:hover .middle {
+    opacity: 1;
+  }
+  .shadeyy:hover .image {
+    opacity: 0.3;
+  }
+  
+  .shadeyy:hover .middle {
+    opacity: 1;
+  }
+  /* row two shade thingie */
+  .haze:hover .image {
+    opacity: 0.3;
+  }
+  
+  .haze:hover .middle {
+    opacity: 1;
+  }
+  .hazey:hover .image {
+    opacity: 0.3;
+  }
+  
+  .hazey:hover .middle {
+    opacity: 1;
+  }
+  .hazeyy:hover .image {
+    opacity: 0.3;
+  }
+  
+  .hazeyy:hover .middle {
+    opacity: 1;
+  }
+  /* row three shade thingie */
+  .shadow:hover .image {
+    opacity: 0.3;
+  }
+  
+  .shadow:hover .middle {
+    opacity: 1;
+  }
+  .shadowy:hover .image {
+    opacity: 0.3;
+  }
+  
+  .shadowy:hover .middle {
+    opacity: 1;
+  }
+  .shadowyy:hover .image {
+    opacity: 0.3;
+  }
+  
+  .shadowyy:hover .middle {
+    opacity: 1;
+  }
+  .text {
+    background-color: #D4EDE7;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
