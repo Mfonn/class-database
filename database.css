@@ -2,6 +2,7 @@ body {
     background-color: rgb(128, 6, 6);
 }
 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 300px;
     margin-top: 390px;
     margin-left: 480px;
@@ -11,17 +12,19 @@ h1 {
 .text-center {
     margin-top: 90px;
     margin-left: 550px;
-    font-size: 400px;
+    font-size: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#CEBEBE;
 }
 @keyframes header {
-    50% {font-size: 100px;}
-    0%   {color:#6D2E46;}
-    25%  {color: #44BBA4;}
-    50%  {color:#523249;}
-    75%  {color:#C14953;}
-    100% {color:#6D2E46;}
+    50% {font-size: 80px;}
+     0%   {color:#CEBEBE;}
+    25%  {color: #D5B9B2;}
+    50%  {color:#ECE2D0;}
+    75%  {color:#D5B9B2;}
+    100% {color:#CEBEBE;}
   }
-}
+
 
 /* Black buttons with extra padding and without rounded borders */
 .btn {
