@@ -11,10 +11,6 @@ body {
     letter-spacing: 4px;
     border-radius: 0;
   }
-.panel-header {
-    margin-top: 80px;
-}
-  
   .image {
     opacity: 1;
     display: block;
