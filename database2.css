@@ -11,6 +11,9 @@ body {
     letter-spacing: 4px;
     border-radius: 0;
   }
+ .panel {
+   background-color: #263842;
+  }
   .image {
     opacity: 1;
     display: block;
