@@ -21,11 +21,11 @@
                 <a class="navbar-brand" href="https://www.hitwebcounter.com" target="_blank">
                     <img src="https://hitwebcounter.com/counter/counter.php?page=7552636&style=0011&nbdigits=7&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
                 </a>
-               <br> <p>N0. OF VISITORS</p>
+               <br> <p> N0. OF VISITORS</p>
               </div>
             </div>
           </nav>
-          <div class="container">   
+          <div class="container slideanim">   
             <div class="row">
                 <div class="shade">
               <div class="col-sm-4">
@@ -33,7 +33,7 @@
                   <div class="panel-heading">WRITE WITH MARY</div>
                   <div class="panel-body"><img src="mary.jpg" class="img-responsive image" style="width:100%" alt="Image"></div>
                   <div class="middle">
-                    <div class="text"><a href="http://wa.me/+2348130435480">Contact Info</a></div>
+                    <div class="text"><a href="wa.me/+2348130435480">Contact Info</a></div>
                   </div>
                   <div class="panel-footer">Write with Mary is a service that caters to all of your writing needs</div>
                 </div>
@@ -68,7 +68,7 @@
             </div>
           </div><br>
           
-          <div class="container">    
+          <div class="container slideanim">    
             <div class="row">
             <div class="haze">
               <div class="col-sm-4">
@@ -110,7 +110,7 @@
             </div>
           </div><br><br>
 
-          <div class="container">    
+          <div class="container slideanim">    
             <div class="row">
              <div class="shadow">
               <div class="col-sm-4">
@@ -154,5 +154,17 @@
             <p>Made by <a href="https://mfonn.github.io/Mfon.github/" data-toggle="tooltip" title="Visit portfolio">Mfon </a></p>
            <p class="glyphicon glyphicon-envelope"> mfonnta05@gmail.com</p>
         </footer>
+        <script>
+          $(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+        </script>
     </body>
 </html>
