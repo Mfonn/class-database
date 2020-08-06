@@ -113,6 +113,28 @@ body {
   .shadowyy:hover .middle {
     opacity: 1;
   }
+ /* row four shade thingie */
+  .gaze:hover .image {
+    opacity: 0.3;
+  }
+  
+  .gaze:hover .middle {
+    opacity: 1;
+  }
+  .gazey:hover .image {
+    opacity: 0.3;
+  }
+  
+  .gazey:hover .middle {
+    opacity: 1;
+  }
+  .gazeyy:hover .image {
+    opacity: 0.3;
+  }
+  
+  .gazeyy:hover .middle {
+    opacity: 1;
+  }
   .text {
     background-color: #D4EDE7;
     color: white;
